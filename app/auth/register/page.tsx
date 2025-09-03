@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useForm, FieldError } from "react-hook-form";
 import { z, TypeOf } from "zod";
 
-export const createUserSchema = z
+const createUserSchema = z
   .object({
     name: z.string().min(1, { message: "Name is required" }),
     password: z
