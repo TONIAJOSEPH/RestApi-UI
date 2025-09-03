@@ -44,7 +44,7 @@ export default function Home() {
       <button>
         <a href={getGoogleOAuthURL()}>Login with Google</a>
       </button>
-      <a href="/auth/login">Please login</a>
+      <a href="/auth/login">Please Login</a>
     </div>
   );
 }
